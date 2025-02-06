@@ -5,6 +5,9 @@ spring:
   profiles:
     active: native
 
+mongo:
+  username: root
+
 eureka:
   instance:
     nonSecurePort: ${server.port:8888}

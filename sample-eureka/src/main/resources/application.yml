@@ -2,6 +2,9 @@
 server:
   port: 8761
 
+mongo:
+  username: root
+
 eureka:
   instance:
     hostname: localhost
